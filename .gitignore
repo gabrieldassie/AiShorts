@@ -1,0 +1,44 @@
+# Ambiente virtual
+.venv/
+venv/
+env/
+
+# Dependências
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+
+# Variáveis de ambiente e credenciais sensíveis
+.env
+client_secret.json
+youtube_token.json
+
+# Arquivos gerados pelo pipeline
+output/narration.wav
+output/thumbnail.jpg
+output/final_short.mp4
+output/temp_audio.m4a
+
+# Modelos TTS baixados localmente
+tts_models/
+
+# Logs e temporários
+*.log
+tmp/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
